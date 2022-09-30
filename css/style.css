@@ -23,3 +23,26 @@
 	font-weight: 500;
 	text-transform: capitalize;
 }
+
+.carousel-inner img{
+    max-width: 200vh;
+    object-fit: cover;
+}
+.padded{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+#carousel {
+    position: relative;
+}
+
+#cabezera{
+	background-color: rgba(226,1,101,255);
+}
+#contenido{
+	background-color: rgba(252,251,250,255);
+}
+#responsive{
+	background-color: rgba(245,89,164,255);
+}
