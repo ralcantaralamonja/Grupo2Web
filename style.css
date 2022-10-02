@@ -16,8 +16,9 @@
 
 }
 #container{
+    width: 100%;
     background-image: url(img/img.jpg); 
-    height: 180vh; 
+    height: 150vh; 
     background-repeat: no-repeat;
 	background-size: cover;
 	padding: 100px 0 120px;
@@ -55,5 +56,5 @@
     }
 @media (max-width: 1200px){
         #container {background-position: center;}
-        #container {padding: 0 15px;}
+        #container {padding: 0 150px;}
         }
