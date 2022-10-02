@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 .logo-1{
 
     width:70px;
@@ -20,6 +22,106 @@
 .sec-v-title h2 {
 	color: #000000;
 	font-size: 45px;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+/* Enrique Alvites */
+
+/* div class="lading-page" */
+
+
+.landing-page .container-fluid{
+	padding: 0 60px;
+}
+
+/* Section "block" */
+
+section{
+	display: block;
+	position: relative;
+}
+
+.block{
+	padding: 140px 0;
+}
+
+.sec-v-title h2{
+	color: #000000;
+	font-family: 'Barlow', sans-serif;
+	font-size: 45px;
 	font-weight: 500;
 	text-transform: capitalize;
+}
+
+.sec-v-title{
+	position: relative;
+	padding-bottom: 32px;
+	margin-bottom: 90px;
+	margin-top: -18px;
+}
+
+.sec-v-title:before{
+	content: '';
+	position: absolute;
+	bottom: 0%;
+	left: 50%;
+	width: 56px;
+	height: 4px;
+	background-color: #00b9c6;
+	transform: translateX(-50%);
+}
+
+.songs{
+	margin-bottom: -70px;
+}
+
+.song{
+	text-align: center;
+	margin-bottom: 62px;
+	
+}
+
+.repo-song-file{
+	margin-bottom: 20px;
+	position: relative;
+	transition: all 0.3 ease;
+}
+
+.repo-song-file img{
+	width: 100%;
+}
+
+.t-link{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: all 0.4s ease-in-out;
+	color: inherit;
+}
+
+.song h3{
+	color: #010100;
+	font: 25px;
+	text-transform: capitalize;
+	font-weight: 400;
+	font-family: 'Barlow', sans-serif;
+	transition: all 0.4 ease-in-out;
+}
+
+.song h3 a{
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover{
+	text-decoration: none;
+	color: inherit;
+}
+
+.div-demo{
+	padding: 0 15px;
 }
