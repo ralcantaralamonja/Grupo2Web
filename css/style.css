@@ -74,7 +74,16 @@ section{
 }
 
 .songs{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
 	margin-bottom: -70px;
+
+}
+
+#padre{
+	margin: 0 -15px;
 }
 
 .song{
@@ -87,6 +96,7 @@ section{
 	margin-bottom: 20px;
 	position: relative;
 	transition: all 0.3 ease;
+	
 }
 
 .repo-song-file img{
@@ -105,12 +115,12 @@ section{
 }
 
 .song h3{
+	font-family: 'Barlow', sans-serif;
 	color: #010100;
-	font: 25px;
+	font-size: 25px;
 	text-transform: capitalize;
 	font-weight: 400;
-	font-family: 'Barlow', sans-serif;
-	transition: all 0.4 ease-in-out;
+	padding: 2.3px;
 }
 
 .song h3 a{
@@ -125,7 +135,7 @@ a:hover{
 
 .div-demo{
 	padding: 0 15px;
-
+}
 /* Fin Enrique Alvites */
 
 .carousel-inner img{
@@ -203,4 +213,60 @@ img{
 }
 
 
+
+
+#david {
+    position: relative;
+    top: 1%;
+    left: 3%;
+}
+
+#container{
+    width: 100%;
+    background-image: url(../img/img.jpg); 
+    height: 100%; 
+    background-repeat: no-repeat;
+	background-size: cover;
+	padding: 100px 0 120px;
+    background-position: left;
+}
+#tex{
+	color: #fff;
+
+}
+#david h2 {
+    font-weight: 700;
+    font-size: 80px; 
+    line-height: 80px; 
+    color: white;
+    margin-bottom: 3%;
+}
+#container p {
+    color: #fef504;
+
+}
+#boton {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    height: 60px;
+    line-height: 58px;
+    font-weight: 700;
+    padding: 0 35px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    text-transform: capitalize;
+    margin: 4% 0 4% 0;
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px){
+    #container {padding: 30px 0 100px;}
+    }
+
+@media (max-width: 1200px){
+        #container {background-position: center;}
+        #container {padding: 0 150px;}
+    }
 
