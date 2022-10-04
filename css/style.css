@@ -214,3 +214,53 @@ a:hover{
         #container {background-position: center;}
         #container {padding: 0 150px;}
     }
+
+	footer{
+		display: block;
+		margin: 0;
+		border: 0;
+		font: inherit;
+		width: 100%;
+	}
+	
+	.footer1{
+		background-color: #000000;
+		padding: 87px 0;
+	}
+	
+	.caja1 {
+		padding: 0 15px;
+		text-align: center;
+	}
+	
+	.caja2 {
+		text-align: center;
+	}
+	
+	.caja2 img{
+		margin-bottom: 55px;
+	}
+	
+	.buy {
+		display: inline-block;
+		color: #fff;
+		font-size: 20px;
+		height: 60px;
+		line-height: 58px;
+		font-weight: 700;
+		padding: 0 35px;
+		border-radius: 30px;
+		border: 1px solid #fff;
+		margin-bottom: 20px;
+	}
+	
+	a{
+		text-decoration: none;
+		background-color: transparent;
+		touch-action: manipulation;
+	}
+	
+	.buy:hover{
+		background-color: #fff;
+		transition: background-color 1s;
+	}
