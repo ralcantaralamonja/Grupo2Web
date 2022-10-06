@@ -367,3 +367,54 @@ img{
 	@media (max-width: 576px){
 		#container {height: 140vh;}
 	}
+
+	.icon1{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		cursor: pointer;
+		justify-content: center;
+	}
+	
+	.icon2{
+		position: relative;
+		width: 80px;
+		height: 80px;
+		margin: 20px;
+		border-radius: 50%;
+		transition: all .8s;
+	}
+	
+	.icon2:hover{
+		background-color: #e60073;
+		box-shadow: 0 0 20px #e60073;
+	}
+	
+	.icon2:hover:nth-child(2){
+		background-color: #1877f2;
+		box-shadow: 0 0 20px #1877f2;
+	}
+	
+	.icon2:hover:nth-child(3){
+		background-color: #25d366;
+		box-shadow: 0 0 20px #25d366;
+	}
+	
+	.icon2 i{
+		color: #fff;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 1.7rem;
+	}
+	
+	svg circle{
+		stroke-dasharray: 150;
+		transition: all .8s ease-in-out;
+	}
+	
+	.icon2:hover circle{
+		stroke-dasharray: 220;
+	}
