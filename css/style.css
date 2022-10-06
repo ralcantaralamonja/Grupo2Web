@@ -346,3 +346,24 @@ img{
 		background-color: #fff;
 		transition: background-color 1s;
 	}
+	@media (max-width: 1700px){
+		#container {height: 160vh;}
+	
+	}
+	@media (max-width: 1200px){
+		#container {background-position: center;}
+		#container {padding: 0 10px;}
+		#container {height: 160vh;}
+		#david {position: relative;}
+		#david {top: 1%;}
+		#david {left: 3%;}
+		#david img {margin: 2%;}
+		}
+	@media (max-width: 768px){
+		#container {height: 170vh;}
+		#david {top: 1%;}
+		#david {left: 2%;}
+		}
+	@media (max-width: 576px){
+		#container {height: 140vh;}
+	}
