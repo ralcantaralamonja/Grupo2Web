@@ -176,7 +176,7 @@ a:hover{
 	width: 100%;
 }
 .innerpages{
-	 margin-bottom: -70px;
+	margin-bottom: -70px;
 }
 
 .innerpages.innerpage-slider.row.slick-initialized.slick-slider.slick-dotted {}
@@ -418,3 +418,210 @@ img{
 	.icon2:hover circle{
 		stroke-dasharray: 220;
 	}
+
+	/* NAVBAR */
+
+#logo-navbar {
+	height: 50px;
+}
+
+nav {
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.nav-link {
+	color: white;
+	font-size: 1.25em;
+	font-family: 'Barlow', sans-serif;
+}
+
+.nav-link:hover {
+	color: #fd0151;
+	font-size: 1.2em;
+	font-family: 'Barlow', sans-serif;
+}
+
+.page {
+	color: #fd0151;
+	font-size: 1.2em;
+}
+
+.nav-link i {
+	font-size: 1.1em;
+	padding-left: 5px;
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: #fd0151;
+}
+
+/* NAVBAR */
+
+/* Enrique Alvites */
+
+/* div class="lading-page" */
+
+
+.landing-page .container-fluid {
+	padding: 0 60px;
+}
+
+/* Section "block" */
+
+section {
+	display: block;
+	position: relative;
+}
+
+.block {
+	padding: 140px 0;
+}
+
+.sec-v-title h2 {
+	color: #000000;
+	font-family: 'Barlow', sans-serif;
+	font-size: 45px;
+	font-weight: 500;
+	text-transform: capitalize;
+	cursor: pointer;
+}
+
+
+.sec-v-title {
+	position: relative;
+	padding-bottom: 32px;
+	margin-bottom: 90px;
+	margin-top: -18px;
+}
+
+.sec-v-title:before {
+	content: '';
+	position: absolute;
+	bottom: 0%;
+	left: 50%;
+	width: 56px;
+	height: 4px;
+	background-color: #00b9c6;
+	transform: translateX(-50%);
+}
+
+.songs {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	margin-bottom: -70px;
+
+}
+
+#padre {
+	margin: 0 -15px;
+}
+
+.song {
+	text-align: center;
+	margin-bottom: 62px;
+
+}
+
+.repo-song-file {
+	margin-bottom: 20px;
+	position: relative;
+	transition: all 0.3 ease;
+
+}
+
+.repo-song-file img {
+	width: 100%;
+}
+
+.t-link {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: all 0.4s ease-in-out;
+	color: inherit;
+}
+
+.song h3 {
+	font-family: 'Barlow', sans-serif;
+	color: #010100;
+	font-size: 25px;
+	text-transform: capitalize;
+	font-weight: 400;
+	padding: 2.3px;
+}
+
+.song h3 a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+.div-demo {
+	padding: 0 15px;
+}
+
+/* Table - Página 2 */
+
+#discos-page h2 {
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-family: 'Barlow', sans-serif;
+	color: white;
+	font-weight: 400;
+	background-color: #212529;
+	padding: 0.2em;
+	text-align: center;
+}
+
+#discos-page {
+	padding-bottom: 100px;
+}
+
+table {
+	font-family: 'Barlow', sans-serif;
+}
+
+/* Table - Página 2 */
+
+/* Formulario - Página 3 */
+
+#formulario h2 {
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-family: 'Barlow', sans-serif;
+	color: white;
+	font-weight: 400;
+	background-color: #212529;
+	padding: 0.2em;
+	text-align: center;
+}
+
+#formulario {
+	padding-bottom: 100px;
+}
+
+#button-send {
+	margin-top: 30px;
+}
+
+.btn-primary {
+	--bs-btn-bg: #fd0151;
+	--bs-btn-border-color: none;
+}
+
+.form-label{
+	color: #f559a4;
+	font-family: 'Barlow', sans-serif;
+	font-weight: 500;
+}
+
+/* Formulario - Página 3 */
