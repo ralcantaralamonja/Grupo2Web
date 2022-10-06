@@ -83,7 +83,7 @@ section{
 }
 
 #padre{
-	margin: 0 -15px;
+	/* margin: 0 -15px; */
 }
 
 .song{
@@ -162,35 +162,41 @@ a:hover{
 }
 
 /* Guerson Aarom */
-/* Slick  */
-
-.innerpages{
-	margin-bottom: -70px;
-}
-
+/* carousel  */
 .innerpage{
 	text-align: center;
+	margin-bottom: 62px;
 }
-.innerpage-carousel{
+.innerpage-thumb{
+	margin-bottom: 20px;
 	position: relative;
 	transition: all 0.3s ease;
 }
+.innerpage-thumb > img{
+	width: 100%;
+}
+.innerpages{
+	 margin-bottom: -70px;
+}
+
+.innerpages.innerpage-slider.row.slick-initialized.slick-slider.slick-dotted {}
 .innerpage-slider .innerpage{
 	margin-bottom: 130px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-.innerpage-slider .innerpage .innerpage-carousel{
+.innerpage-slider .innerpage .innerpage-thumb{
 	margin-bottom: 0;
-	box-shadow: 0 0 20px rgb(0, 0, 0/10%);	
+	box-shadow: 0 0 20px rgb(0 0 0 /10%);	
 }
-.innerpage-carousel > img{
-	width: 100%;
-}
-
 img{
 	vertical-align: middle;
 	height: auto;
+}
+
+.col-lg-4{
+	padding-right: 15px;
+	padding-left: 15px;
 }
 
 
@@ -199,19 +205,40 @@ img{
 	
 }
 .slick-dots li{
-	margin-right: 12px	;
-}
-.slick-dots li button{
-	width: 12px;
-	height: 12px;
-	border-radius: 50%;
-	background-color: #f559a4;
-	
-}
-.slick-dots li:last-child{
-	margin: 0;
+	margin-right: 12px;
 }
 
+.slick-dots li button{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: #f559a4;
+}
+
+.slick-slide-control07{
+	display: none;
+}
+
+.slick-dots li:last-child{
+	display: none;
+}
+
+
+.slick-dots li.slick-active button{
+	background-color:#00b9c6;
+	
+}
+.slick-dots li.slick-active button::before{
+	color: transparent;
+}
+
+.slick-dots li button::before{
+	color: transparent;
+}
+
+
+/*carousel end*/
+/* End Guerson Leon*/
 
 
 
