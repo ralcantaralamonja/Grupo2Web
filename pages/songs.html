@@ -1,0 +1,25 @@
+<body>
+    <div class="container table-responsive" id="discos-page">
+        <h2>Most Popular Urban Genre Artists</h2>
+
+        <table class="table table-light table-hover table-bordered border-color">
+            <caption>Best artists of other genres</caption>
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Id Artist</th>
+                    <th scope="col">Name Artist</th>
+                    <th scope="col">Last Name Artist</th>
+                    <th scope="col">Sex</th>
+                    <th scope="col">Date of Birth</th>
+                    <th scope="col">Country</th>
+                </tr>
+            </thead>
+            <tbody id="tbody-fetch">
+            </tbody>
+        </table>
+    </div>
+</body>
+
+<script>
+    $.getScript("../lib/song.js");
+</script>
